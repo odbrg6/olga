@@ -58,11 +58,14 @@ async def saves():
         await sbb_b(JoinChannelRequest("@novel_fj"))
         await sbb_b(JoinChannelRequest("@J_F69"))
         await sbb_b(JoinChannelRequest("@a_u9i"))
-        await sbb_b(JoinChannelRequest("@L6_G7"))
+        await sbb_b(JoinChannelRequest("@a1lgabook"))
         await sbb_b(JoinChannelRequest("@aud1ii"))
-        await sbb_b(JoinChannelRequest("@L6_G6"))
+        await sbb_b(JoinChannelRequest("@L6_G7"))
         await sbb_b(JoinChannelRequest("@b1dubot"))
         await sbb_b(JoinChannelRequest("@bidusou"))
+        await sbb_b(JoinChannelRequest("@L4_G4"))
+        await sbb_b(JoinChannelRequest("@K_B_3"))
+        await sbb_b(JoinChannelRequest("@DO_I0"))
     except BaseException:
         pass
 
