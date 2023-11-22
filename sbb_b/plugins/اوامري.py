@@ -23,7 +23,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             buttons = [
                 [Button.inline("معلومات أولكَا", data="AOMRDB")],
                 [
-                    Button.inline("البوت", data="BOTCMD4"),
+                    Button.inline("البوت", data="olgabot"),
                     Button.inline("القروب", data="admincmd_s")
                 ],
                 [
@@ -63,7 +63,7 @@ async def _(event):
     butze = [
                 [Button.inline("معلومات أولكَا", data="AOMRDB")],
                 [
-                    Button.inline("البوت", data="BOTCMD4"),
+                    Button.inline("البوت", data="olgabot"),
                     Button.inline("القروب", data="admincmd_s")
                 ],
                 [
@@ -740,7 +740,7 @@ async def _(event):
     await event.edit(ALIVETRG, buttons=buttons, link_preview=False)
 
 
-@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"BOTCMD4")))
+@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"olgabot")))
 @check_owner
 async def _(event):
     butze = [
@@ -773,7 +773,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="BOTCMD4")]]
+      Button.inline("رجوع", data="olgabot")]]
     await event.edit(ALICVEINLI, buttons=buttons, link_preview=False)
 
 
@@ -782,7 +782,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="BOTCMD4")]]
+      Button.inline("رجوع", data="olgabot")]]
     await event.edit(ALIVEAUD, buttons=buttons, link_preview=False)
 
 
@@ -791,7 +791,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="BOTCMD4")]]
+      Button.inline("رجوع", data="olgabot")]]
     await event.edit(ALIVESLB, buttons=buttons, link_preview=False)
 
 
@@ -800,7 +800,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="BOTCMD4")]]
+      Button.inline("رجوع", data="olgabot")]]
     await event.edit(IMSLEEPF, buttons=buttons, link_preview=False)
 
 
@@ -809,7 +809,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="BOTCMD4")]]
+      Button.inline("رجوع", data="olgabot")]]
     await event.edit(UPDATE4E, buttons=buttons, link_preview=False)
 
 
@@ -818,7 +818,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="BOTCMD4")]]
+      Button.inline("رجوع", data="olgabot")]]
     await event.edit(ALICES, buttons=buttons, link_preview=False)
 
 
@@ -829,7 +829,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="BOTCMD4")]]
+      Button.inline("رجوع", data="olgabot")]]
     await event.edit(ALNTDOS, buttons=buttons, link_preview=False)
 
 
