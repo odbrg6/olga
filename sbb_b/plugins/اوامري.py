@@ -23,7 +23,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             buttons = [
                 [Button.inline("معلومات أولكَا", data="AOMRDB")],
                 [
-                    Button.inline("البوت", data="olgabot"),
+                    Button.inline("البوت", data="eeeeq"),
                     Button.inline("القروب", data="admincmd_s")
                 ],
                 [
@@ -63,7 +63,7 @@ async def _(event):
     butze = [
                 [Button.inline("معلومات أولكَا", data="AOMRDB")],
                 [
-                    Button.inline("البوت", data="olgabot"),
+                    Button.inline("البوت", data="eeeeq"),
                     Button.inline("القروب", data="admincmd_s")
                 ],
                 [
@@ -135,7 +135,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز بالامر   `.وضع الرمز`
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -157,7 +157,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -177,7 +177,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -201,7 +201,7 @@ async def varssett(event):
 .زخرفة الوقت 9
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -221,7 +221,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -264,7 +264,7 @@ async def varssett(event):
 
 * يمكنك كتابة اي كليشة مثلا: عزيزي المستخدم تم حظرك 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -283,7 +283,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على عدد التحذيرات كرقم  بالامر   `.وضع عدد التحذيرات `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -303,7 +303,7 @@ async def varssett(event):
 
 * يمكنك الحصول على  كليشة جاهزة من هذه القناة biduso
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -324,7 +324,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -364,7 +364,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس أولكَا biduso""",
+اوامر فارات سورس بيدو biduso""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -383,7 +383,7 @@ async def varssett(event):
 
 * يمكنك الحصول على  كليشة جاهزة من هذه القناة @biduso
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا @biduso""",
+اوامر فارات سورس بيدو @biduso""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -402,7 +402,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز التي تريد وضعه بالامر   `.وضع رمز الفحص `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس أولكَا @biduso""",
+اوامر فارات سورس بيدو @biduso""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -592,7 +592,7 @@ async def _(event):
 
 
 
-@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"TASLIACMD")))
+@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"PICYEYS")))
 @check_owner
 async def _(event):
     buttons = [
@@ -740,7 +740,7 @@ async def _(event):
     await event.edit(ALIVETRG, buttons=buttons, link_preview=False)
 
 
-@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"olgabot")))
+@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"BOTCMD4")))
 @check_owner
 async def _(event):
     butze = [
@@ -773,7 +773,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="olgabot")]]
+      Button.inline("رجوع", data="BOTCMD4")]]
     await event.edit(ALICVEINLI, buttons=buttons, link_preview=False)
 
 
@@ -782,7 +782,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="olgabot")]]
+      Button.inline("رجوع", data="BOTCMD4")]]
     await event.edit(ALIVEAUD, buttons=buttons, link_preview=False)
 
 
@@ -791,7 +791,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="olgabot")]]
+      Button.inline("رجوع", data="BOTCMD4")]]
     await event.edit(ALIVESLB, buttons=buttons, link_preview=False)
 
 
@@ -800,7 +800,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="olgabot")]]
+      Button.inline("رجوع", data="BOTCMD4")]]
     await event.edit(IMSLEEPF, buttons=buttons, link_preview=False)
 
 
@@ -809,7 +809,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="olgabot")]]
+      Button.inline("رجوع", data="BOTCMD4")]]
     await event.edit(UPDATE4E, buttons=buttons, link_preview=False)
 
 
@@ -818,7 +818,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="olgabot")]]
+      Button.inline("رجوع", data="BOTCMD4")]]
     await event.edit(ALICES, buttons=buttons, link_preview=False)
 
 
@@ -829,7 +829,7 @@ async def _(event):
 async def _(event):
     buttons = [
     [
-      Button.inline("رجوع", data="olgabot")]]
+      Button.inline("رجوع", data="BOTCMD4")]]
     await event.edit(ALNTDOS, buttons=buttons, link_preview=False)
 
 
@@ -1196,7 +1196,7 @@ async def _(event):
     await event.edit(ALMN3CMD, buttons=buttons, link_preview=False)
 
 
-@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"")))
+@sbb_b.tgbot.on(CallbackQuery(data=re.compile(rb"ADMSS4")))
 @check_owner
 async def _(event):
     buttons = [
