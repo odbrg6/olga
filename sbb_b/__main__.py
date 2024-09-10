@@ -1,5 +1,5 @@
 import sys
-
+import random
 from aiohttp import web
 
 import sbb_b
@@ -19,7 +19,21 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("سورس أولكَأ")
+LOGS = logging.getLogger("سورس اولكا")
+
+ABC = '12345'
+klshy = '67890'
+Extrra = 1
+F = ''.join(random.sample(ABC, Extrra))
+G = ''.join(random.sample(klshy, Extrra))
+FF = F + "." + F + "." + G + "." + G
+NN = F + "." + G + "." + G + "." + F
+BB = F + "." + F + "." + G + "." + G
+CC = F + "." + F + "." + F + "." + G
+DD = F + "." + F + "." + F + "." + F
+AA = F + "." + F + "." + F + "." + F
+EXTRA = (FF, NN, BB, CC, DD, AA)
+user = str(''.join(random.choice(EXTRA)))
 
 cmdhr = Config.COMMAND_HAND_LER
 
@@ -48,13 +62,12 @@ async def olgastart(total):
     await startupmessage()
     await saves()
 
-
 async def start_olga():
     try:
         tbot_id = await tbot.get_me()
         Config.TG_BOT_USERNAME = f"@{tbot_id.username}"
         sbb_b.tgbot = tbot
-        LOGS.info("•••  جار بدأ سورس أولكَأ •••")
+        LOGS.info("•••  جار بدأ سورس اولكا •••")
         CLIENTR = await olgas(Config.STRING_SESSION, sbb_b, "STRING_SESSION")
         await tbot.start()
         total = CLIENTR
@@ -62,14 +75,13 @@ async def start_olga():
         await load_plugins("assistant")
         LOGS.info(f"تم انتهاء عملية التنصيب بنجاح")
         LOGS.info(
-            f"لمعرفة اوامر السورس ارسل {cmdhr}الاوامر\
-        \nمجموعة قناة السورس  https://t.me/bofolv"
+            f"لمعرفة اوامر السورس ارسل {cmdhr}الاوامر"
         )
         LOGS.info(f"» عدد جلسات التنصيب الحالية = {str(total)} «")
         await olgastart(total)
         app = web.AppRunner(await web_server())
         await app.setup()
-        bind_address = "0.0.0.0"
+        bind_address = "{user}"
         await web.TCPSite(app, bind_address, Config.PORT).start()
     except Exception as e:
         LOGS.error(f"{str(e)}")
