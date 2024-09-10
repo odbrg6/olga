@@ -1,1 +1,1 @@
-worker: python3 -m sbb_b
+web: python3 -m sbb_b
